@@ -1,0 +1,12 @@
+In this Exercise, we have included DistributedCache class to import a file containing words to be skipped while
+calculating their word count. Also counters are used to report corresponding type of words through the use of
+ENUM.
+
+There is two files.one is "UN.Txt" which is containing the words and other file is skipfile which is having the word 
+that need to be skipped
+
+
+
+If you do want upper and lowercase letters to be counted separately, do not type “-case” in
+command line. Similarly do not include “-skip” and corresponding file path if you do not want
+words to be skipped.
