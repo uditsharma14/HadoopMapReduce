@@ -1,0 +1,7 @@
+You are given a data log file of say aircel having subscribers ID,tower id and and Data Downloaded.
+Calculate Total Data Downloaded for each customer id using Hadoop MapReduce.
+
+File Name :Data_File.txt 
+
+
+To Execute the POC you have to create jar and execute the jar by prodiving the main class file name, input and output path.
