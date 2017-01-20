@@ -1,0 +1,13 @@
+The DBInputFormat and DBOutputFormat component provided in Hadoop 0.19 finally allows easy import and export of data between Hadoop and many relational databases, allowing relational data to be more easily incorporated into your data processing pipeline.
+
+--to create the table from where mapreduce can read the data
+create table Employee (  empid integer ,  name varchar(32) );
+
+ insert into Employee values(101,'udit');
+ insert into Employee values(102,'Dheeresh');
+ insert into Employee values(103,'Mayank');
+ insert into Employee values(104,'Dheeresh');
+ insert into Employee values(105,'Mayank');
+
+--to create the table from where mapreduce can write the data
+create table output ( name varchar(32),count integer );
